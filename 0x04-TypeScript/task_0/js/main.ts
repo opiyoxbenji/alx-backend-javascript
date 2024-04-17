@@ -7,17 +7,17 @@ interface Student {
 }
 
 const student1: Student = {
-	firstName: "Benja";
-	lastName: "Opiyos";
+	firstName: "Benja",
+	lastName: "Opiyos",
 	age: 22,
-	location: "Kampala"
+	location: "Kampala",
 };
 
 const student2: Student = {
-	firstName: "Aaronne";
-	lastName: "Ocen";
+	firstName: "Aaronne",
+	lastName: "Ocen",
 	age: 23,
-	location: "Gulu"
+	location: "Gulu",
 };
 
 // array containing the students
