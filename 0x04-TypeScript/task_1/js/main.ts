@@ -1,4 +1,4 @@
-interface Teacher {
+export interface Teacher {
 	readonly firstName: string;
 	readonly lastName: string;
 	fullTimeEmployee: boolean;
@@ -42,6 +42,6 @@ export class StudentClass implements IStudentClass {
 	}
 
 	displayName() {
-		return this._firsName;
+		return this._firstName;
 	}
 }
